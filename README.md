@@ -128,6 +128,8 @@ In the [dashboard](https://planmysaas.com), all sections land in an Artifact Hub
 
 The skill and the [PlanMySaaS dashboard](https://planmysaas.com) are not competitors. They are the same product expressed at two different friction levels.
 
+### What you get inside a single project
+
 | Capability | This Skill | [planmysaas.com](https://planmysaas.com) |
 |---|:---:|:---:|
 | Top-level stages generated | 8 | **30+** |
@@ -137,10 +139,11 @@ The skill and the [PlanMySaaS dashboard](https://planmysaas.com) are not competi
 | Inline charts (recharts) | — | ✓ bars, canvas, score dials |
 | Visual architecture canvas | text only | ✓ drag-able 29-node diagram |
 | Auto-research on real competitors (web search) | Claude only | ✓ deep research, 60 sub-topics |
-| Version history per stage | — | ✓ diff view + rollback |
-| Re-run any stage with feedback | — | ✓ |
+| **Project documentation page** | — | ✓ a single docs hub per project, auto-generated |
+| **Versions + diff view per stage** | — | ✓ rollback to any earlier version, side-by-side compare |
+| **Re-run any stage with feedback** | — | ✓ "make this more X" prompts on any output |
 | Team collaboration | — | ✓ workspaces + invites |
-| Build tracker (post-blueprint) | — | ✓ kanban-style progress |
+| Build tracker (post-blueprint) | — | ✓ kanban-style progress, P0 / P1 swimlanes |
 | Risk register · decision log · event flows | — | ✓ dedicated pages |
 | Exports (PDF, JSON, ZIP, public share link) | — | ✓ |
 | Admin-side runbooks (refunds, password resets, etc.) | — | ✓ for ops teams |
@@ -152,6 +155,25 @@ The skill and the [PlanMySaaS dashboard](https://planmysaas.com) are not competi
 **Use the skill** when you are exploring an idea, prototyping for a hackathon, or already deep in Cursor / Claude Code.
 
 **Use the dashboard** when the project is real — when you have decided to spend three months on it, when a co-founder joins, when you want exports for a pitch deck, or when you need version history because you will iterate on the wedge based on early customer interviews.
+
+---
+
+### Beyond the skill — the rest of planmysaas.com
+
+The skill ships the planning pipeline. The web product ships the planning pipeline **plus** a public knowledge surface that the skill structurally cannot include. Free, no signup needed for any of these:
+
+| Surface | What it gives you |
+|---|---|
+| 🔍 [Ideas directory](https://planmysaas.com/ideas) | **500+ curated SaaS ideas** organised by category — B2B SaaS, Micro-SaaS, AI, FinTech, HealthTech, EdTech, No-Code, Developer Tools, Marketing, Weekend Projects. Each idea has a deep page with audience, business model, tech stack, and a one-click "plan this idea" button that pre-fills the blueprint flow. |
+| 🛠️ [Free tools directory](https://planmysaas.com/tools) | **12+ founder calculators**, all free, no signup — Runway · Break-even · SaaS pricing · Startup cost · LTV/CAC · MRR growth · Market size (TAM/SAM/SOM) · Business name generator · Customer persona builder · Business plan template · Tech stack recommender · SEO competitor analyzer. |
+| 📘 [Guides](https://planmysaas.com/guides) | Step-by-step long-form guides on planning, architecture, pricing, and go-to-market. Structured as a path to a concrete outcome. |
+| ✍️ [Blog](https://planmysaas.com/blogs) | Long-form deep reads for SaaS founders — research, frameworks, case studies. Includes the [launch story for this skill](https://www.planmysaas.com/blogs/planmysaas-claude-skill-drop). |
+| 📉 [Startup failures](https://planmysaas.com/startup-failures) | Post-mortems of $46B+ in losses — what went wrong and the lesson per failure. |
+| 📈 [Startup success stories](https://planmysaas.com/startup-success) | How the best were built. Attached frameworks and decisions. |
+| 🆚 [Alternatives pages](https://planmysaas.com/alternatives) | "X vs Y" comparison pages for popular SaaS planning + AI tools. |
+| 🆘 [Help center](https://planmysaas.com/help) | Per-page docs for every dashboard surface — Blueprint · Dashboard · Growth · Frameworks. |
+
+The skill is the in-editor cousin of all of this. If you only ever use `/planmysaas`, you still get the blueprint pipeline. If you visit planmysaas.com, you also get a small library of ideas, tools, and case studies for free.
 
 ---
 
