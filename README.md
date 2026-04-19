@@ -34,7 +34,7 @@ $ /planmysaas "AI tutor for JEE students, voice-first, ₹99/month"
   ├── 05-features.md        ← Feature specs with user flows
   ├── 06-frontend.md        ← Routes, wireframes, component tree
   ├── 07-phases.md          ← Release plan + milestones
-  ├── 08-build-prompts.md   ← Ready-to-paste build prompts for Claude Code
+  ├── 08-build-playbook.md  ← Decision-grade build steps with rubrics, leaf to root
   └── README.md             ← Index of everything
 ```
 
@@ -105,6 +105,20 @@ The full 9-block business model canvas, plus directional TAM/SAM/SOM, Porter's 5
 <img src="./assets/05-feature-specs.png" alt="Robopandit feature specs page showing 15 features across 9 modules with workflow coverage chart" />
 
 12–20 feature specs, each with a numeric ID (F-01, F-02 …), priority (P0–P3), effort estimate in days, primary actors, purpose, numbered user flow, testable acceptance criteria, edge cases, and telemetry events to fire.
+
+---
+
+### `08-build-playbook.md` — Deep build steps with rubrics, leaf to root
+
+The most important artifact in the blueprint. Not a paste-ready prompt list — a decision-grade build playbook structured as a **dependency tree**: foundation primitives first (repo, deploy pipeline, data layer), then services, then features in priority order, then polish, then ship. Every step includes:
+
+- 🎯 Goal · 📍 Why this comes first · 📥 Inputs · 📤 Outputs
+- 🛠 Implementation details (files, tech decisions, mandatory patterns)
+- ✅ Acceptance rubric (8–14 testable checkboxes per step)
+- ⚠️ Edge cases · ❌ Common pitfalls · 📊 Quality bar (measurable thresholds)
+- 🛑 Stop-and-review gate before the next step
+
+The user (or their AI coding tool) follows it step-by-step. Each step's rubric must pass before advancing — no skipping ahead. Reads like a senior engineer's runbook for a high-stakes deploy.
 
 ---
 
@@ -194,10 +208,9 @@ The skill is plain markdown. Open any file in `~/.claude/skills/planmysaas/` and
 │   ├── 05-features.md        ← Stage 5 prompt
 │   ├── 06-frontend.md        ← Stage 6 prompt
 │   ├── 07-phases.md          ← Stage 7 prompt
-│   └── 08-build-prompts.md   ← Stage 8 prompt
+│   └── 08-build-playbook.md  ← Stage 8 prompt (the build playbook generator)
 ├── templates/
 │   ├── blueprint-readme.md   ← Final README template
-│   └── build-prompt-pack.md  ← Quick-reference cheat sheet for Claude Code
 └── assets/                   ← README screenshots
 ```
 
