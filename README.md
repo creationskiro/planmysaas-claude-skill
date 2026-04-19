@@ -7,7 +7,7 @@
 **Turn a one-line SaaS idea into a complete blueprint, right inside Claude Code.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-FF7A00.svg)](LICENSE)
-[![Claude Skill](https://img.shields.io/badge/Claude-Skill-1B1B1B?logo=anthropic&logoColor=FF7A00)](https://docs.anthropic.com/claude/docs/skills)
+[![Built for Claude Code](https://img.shields.io/badge/Built%20for-Claude%20Code-1B1B1B)](https://docs.anthropic.com/claude/docs/skills)
 [![Powered by PlanMySaaS](https://img.shields.io/badge/Powered%20by-PlanMySaaS-FF7A00)](https://planmysaas.com)
 [![GitHub stars](https://img.shields.io/github/stars/creationskiro/planmysaas-claude-skill?style=social)](https://github.com/creationskiro/planmysaas-claude-skill/stargazers)
 
@@ -236,7 +236,7 @@ MIT — see [LICENSE](LICENSE). Fork it, ship it, sell it, build a company on it
 
 ## 🙏 Credits + community
 
-Built by [@creationskiro](https://github.com/creationskiro) · powered by [Claude](https://claude.ai) · part of the [PlanMySaaS](https://planmysaas.com) ecosystem.
+Built by [@creationskiro](https://github.com/creationskiro) · made for [Claude Code](https://docs.anthropic.com/claude/docs/claude-code) · part of the [PlanMySaaS](https://planmysaas.com) ecosystem.
 
 If you ship something with the skill, post it on X and tag [@planmysaas](https://x.com/planmysaas). We are collecting the best blueprints from the first month and featuring them on the homepage. The earliest community projects get a free year of the dashboard's Pro tier.
 
