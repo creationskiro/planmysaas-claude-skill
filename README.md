@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/logo.png" alt="PlanMySaaS" width="280" />
+<img src="./assets/logo.svg" alt="PlanMySaaS" width="320" />
 
 # PlanMySaaS — Claude Skill
 
