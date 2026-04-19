@@ -1,13 +1,13 @@
 # Stage 8 — Build prompts pack
 
-Generate `./planmysaas-blueprint/08-build-prompts.md`. This is the killer artifact — read all prior stages and write prompts that someone pastes into Cursor / Claude Code / Lovable to actually start building.
+Generate `./planmysaas-blueprint/08-build-prompts.md`. This is the killer artifact — read all prior stages and write prompts that the user pastes directly into Claude Code (or any AI coding tool they prefer) to actually start building.
 
 ## Output structure
 
 ```markdown
 # Build prompts pack — <Project name>
 
-These prompts are designed for **paste into your AI coding tool** (Cursor, Claude Code, Lovable, Bolt, v0). They reference the architecture, features, and tech stack from the rest of this blueprint.
+These prompts are designed for **paste into Claude Code** (and work in any other AI coding tool you prefer — Cursor, Lovable, Bolt, v0). They reference the architecture, features, and tech stack from the rest of this blueprint.
 
 **Order:** Start with prompt 01 (project bootstrap), then run prompts in numerical order. Each one assumes the previous one ran successfully.
 
@@ -201,7 +201,7 @@ Provide a CHECKLIST.md I can run through before going live.
 
 ## How to use
 
-1. Open Cursor / Claude Code / Lovable
+1. Open Claude Code (or your AI coding tool of choice)
 2. Start with prompt 01, paste it as-is
 3. Review the output, commit it
 4. Move to prompt 02. Don't skip ahead.
@@ -218,7 +218,7 @@ Provide a CHECKLIST.md I can run through before going live.
 
 ## Quality rules
 
-- Each prompt must be **self-contained** — paste it cold into a new Cursor session and it should work.
+- Each prompt must be **self-contained** — paste it cold into a new Claude Code session and it should work.
 - Reference specifics from prior stages (entity names, feature IDs, route paths) — don't be generic.
 - 8-10 prompts total. Less = under-spec'd. More = overwhelming.
 - Each prompt has a clear **stopping point** ("don't move to next feature until I confirm") so the user stays in control.

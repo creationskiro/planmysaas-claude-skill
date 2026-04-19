@@ -1,6 +1,6 @@
-# Cursor / Claude Code prompt pack — quick reference
+# Build prompt pack — quick reference
 
-Paste these into Cursor or Claude Code in the order shown. Each builds on the last.
+Paste these into Claude Code in the order shown. Each builds on the last. They also work in any other AI coding tool you prefer (Cursor, Lovable, Bolt, v0) — Claude Code is the default since this skill already runs there.
 
 ## Setup
 

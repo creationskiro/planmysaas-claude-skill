@@ -19,7 +19,7 @@
 
 ## ⚡ The 30-second version
 
-Type one line in Claude Code. Get back nine markdown files in your project folder. Real research, real architecture, real Cursor-ready prompts. Two minutes. No browser. No signup. No API key.
+Type one line in Claude Code. Get back nine markdown files in your project folder. Real research, real architecture, real Claude Code ready build prompts. Two minutes. No browser. No signup. No API key.
 
 ```bash
 $ /planmysaas "AI tutor for JEE students, voice-first, ₹99/month"
@@ -34,7 +34,7 @@ $ /planmysaas "AI tutor for JEE students, voice-first, ₹99/month"
   ├── 05-features.md        ← Feature specs with user flows
   ├── 06-frontend.md        ← Routes, wireframes, component tree
   ├── 07-phases.md          ← Release plan + milestones
-  ├── 08-build-prompts.md   ← Ready-to-paste prompts for Cursor / Claude Code
+  ├── 08-build-prompts.md   ← Ready-to-paste build prompts for Claude Code
   └── README.md             ← Index of everything
 ```
 
@@ -152,7 +152,7 @@ The skill and the [PlanMySaaS dashboard](https://planmysaas.com) are not competi
 | Account required | — | ✓ |
 | Best for | Solo · in-editor · fast loop | Teams · long projects · iteration over months |
 
-**Use the skill** when you are exploring an idea, prototyping for a hackathon, or already deep in Cursor / Claude Code.
+**Use the skill** when you are exploring an idea, prototyping for a hackathon, or already deep in Claude Code.
 
 **Use the dashboard** when the project is real — when you have decided to spend three months on it, when a co-founder joins, when you want exports for a pitch deck, or when you need version history because you will iterate on the wedge based on early customer interviews.
 
@@ -197,7 +197,7 @@ The skill is plain markdown. Open any file in `~/.claude/skills/planmysaas/` and
 │   └── 08-build-prompts.md   ← Stage 8 prompt
 ├── templates/
 │   ├── blueprint-readme.md   ← Final README template
-│   └── cursor-prompt-pack.md ← Quick-reference cheat sheet
+│   └── build-prompt-pack.md  ← Quick-reference cheat sheet for Claude Code
 └── assets/                   ← README screenshots
 ```
 
