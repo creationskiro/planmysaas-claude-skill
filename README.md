@@ -128,19 +128,26 @@ In the [dashboard](https://planmysaas.com), all sections land in an Artifact Hub
 
 The skill and the [PlanMySaaS dashboard](https://planmysaas.com) are not competitors. They are the same product expressed at two different friction levels.
 
-| Feature | This Skill | [planmysaas.com](https://planmysaas.com) |
+| Capability | This Skill | [planmysaas.com](https://planmysaas.com) |
 |---|:---:|:---:|
-| Sections generated | 8 | 14 |
-| Inline charts (recharts) | — | ✓ |
-| Auto-research on real competitors (web search) | Claude only | ✓ |
-| Version history per stage | — | ✓ |
-| Re-run a stage with feedback | — | ✓ |
-| Team collaboration | — | ✓ |
-| Exports (PDF, JSON, ZIP, share link) | — | ✓ |
-| Cost per use | Your Claude tokens | Credits (100 free) |
+| Top-level stages generated | 8 | **30+** |
+| Total generated pages / artifacts | 9 markdown files | **26+ artifacts across 8 categories** |
+| Sub-views per stage | inline sections | **multi-tab pages** (Research = 8 tabs, Analysis = 9, Architecture = 6, Phases = 9 …) |
+| Sidebar workflow groups | — | **7 groups** — Command · Research · Planning · Frameworks · Output · Evolution · Tools |
+| Inline charts (recharts) | — | ✓ bars, canvas, score dials |
+| Visual architecture canvas | text only | ✓ drag-able 29-node diagram |
+| Auto-research on real competitors (web search) | Claude only | ✓ deep research, 60 sub-topics |
+| Version history per stage | — | ✓ diff view + rollback |
+| Re-run any stage with feedback | — | ✓ |
+| Team collaboration | — | ✓ workspaces + invites |
+| Build tracker (post-blueprint) | — | ✓ kanban-style progress |
+| Risk register · decision log · event flows | — | ✓ dedicated pages |
+| Exports (PDF, JSON, ZIP, public share link) | — | ✓ |
+| Admin-side runbooks (refunds, password resets, etc.) | — | ✓ for ops teams |
+| Cost per use | your Claude tokens | credits (100 free) |
 | Internet required | — | ✓ |
 | Account required | — | ✓ |
-| Best for | Solo · in-editor · fast loop | Teams · long projects · iteration |
+| Best for | Solo · in-editor · fast loop | Teams · long projects · iteration over months |
 
 **Use the skill** when you are exploring an idea, prototyping for a hackathon, or already deep in Cursor / Claude Code.
 
